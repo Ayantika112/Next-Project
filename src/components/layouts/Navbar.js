@@ -32,7 +32,7 @@ export default function Navbar() {
           >
             <Link
               className="text-white mr-5 cursor-pointer hover:text-gray-200 flex items-center"
-              href={"/cart"}
+              href={"/cart/viewMyCart"}
             >
               <FaCartArrowDown />
               <span className="pb-4">{addToCart.length}</span>
